@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyly Bakery | Kelezatan Istimewa dari Lamongan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+            },
+            colors: {
+              /* Re-mapping 'earth' keys to the new Lyly Red Palette to apply changes globally without refactoring every component */
+              earth: {
+                50: '#fff1f2',  /* Rose Cream */
+                100: '#ffe4e6', /* Light Rose */
+                200: '#fecdd3', /* Soft Pink */
+                300: '#fda4af', /* Pink */
+                400: '#fb7185', /* Light Red */
+                500: '#e11d48', /* LYLY RED (Main Brand Color) */
+                600: '#be123c', /* Deep Red (Hover) */
+                700: '#9f1239', /* Dark Red */
+                800: '#881337', /* Maroon */
+                900: '#4c0519', /* Deep Maroon/Chocolate text equivalent */
+              },
+              stone: {
+                50: '#fafaf9',
+                100: '#f5f5f4',
+                800: '#292524',
+                900: '#1c1917',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-stone-50 text-stone-800 antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
