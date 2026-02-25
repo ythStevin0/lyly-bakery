@@ -114,5 +114,10 @@ export const FEATURES = [
     title: "Bahan Premium",
     description: "Menggunakan tepung, mentega, dan coklat kualitas terbaik untuk rasa yang tak tertandingi.",
     icon: "Wheat"
+  },
+  {
+    title: "Pengiriman Cepat",
+    description: "Layanan pengiriman cepat ke seluruh wilayah Lamongan dan sekitarnya.",
+    icon: "Truck"
   }
 ];
