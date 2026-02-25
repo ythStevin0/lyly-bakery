@@ -11,7 +11,7 @@ const About: React.FC = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-earth-900/60 flex items-center justify-center">
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-white tracking-wide">Tentang Lyly Bakery</h1>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-white tracking-wide">Tentang Tugu Bakery</h1>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ const About: React.FC = () => {
         <section className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-serif font-bold text-stone-900 mb-6">Cerita dari Dapur Kami</h2>
           <p className="text-lg text-stone-600 leading-loose">
-            Bermula dari dapur rumah sederhana di <span className="font-bold text-earth-700">Lamongan</span> pada tahun 2010, Lyly Bakery didirikan dengan satu tujuan: menyajikan roti yang tidak hanya enak, tapi juga menenangkan hati. 
+            Bermula dari dapur rumah sederhana di <span className="font-bold text-earth-700">Lamongan</span> pada tahun 2010, Tugu Bakery didirikan dengan satu tujuan: menyajikan roti yang tidak hanya enak, tapi juga menenangkan hati.
             <br/><br/>
             Apa yang dimulai sebagai hobi membuat roti sisir resep nenek, kini telah berkembang menjadi tujuan utama warga Lamongan mencari kue ulang tahun, oleh-oleh, dan teman minum kopi. Meski telah berkembang, kami tetap memegang teguh prinsip "Home Made Taste" dalam setiap adonan yang kami uleni.
           </p>
@@ -70,7 +70,7 @@ const About: React.FC = () => {
            <blockquote className="text-2xl md:text-3xl font-serif font-medium text-earth-800 italic mb-8 leading-relaxed">
              "Roti yang enak itu punya kekuatan untuk membuat hari yang buruk menjadi lebih baik."
            </blockquote>
-           <cite className="not-italic font-bold text-stone-900 tracking-wide block uppercase text-sm">- Ibu Lyly, Pendiri</cite>
+           <cite className="not-italic font-bold text-stone-900 tracking-wide block uppercase text-sm">- Ibu Tugu, Pendiri</cite>
         </section>
 
       </div>

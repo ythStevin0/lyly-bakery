@@ -135,7 +135,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate, products, onAddToCart }) => {
                <div className="flex-1 space-y-8 text-center lg:text-left">
                   <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">
                     Signature Menu <br/>
-                    <span className="text-earth-400">Lyly Bakery.</span>
+                    <span className="text-earth-400">Tugu Bakery.</span>
                   </h2>
                   <p className="text-earth-100/80 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
                     Setiap produk kami adalah karya seni. Dari Roti Sisir legendaris yang lembut hingga Tart modern yang estetik, dibuat dengan passion penuh.
@@ -200,7 +200,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate, products, onAddToCart }) => {
                    <span className="text-sm font-bold text-white">Fitur Baru • AI Consultant</span>
                  </div>
                  <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">
-                   Bingung Pilih Menu? <br/> Tanya AI Chef Lyly.
+                   Bingung Pilih Menu? <br/> Tanya AI Chef Tugu.
                  </h2>
                  <p className="text-stone-300 text-lg mb-8 leading-relaxed max-w-xl">
                    Dapatkan rekomendasi snack box yang pas untuk budget rapat, atau kue ulang tahun yang cocok untuk kepribadian orang tersayang. Gratis!

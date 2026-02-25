@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-3xl font-serif font-bold text-white">
-              Lyly<span className="text-earth-500">Bakery</span>
+              Tugu<span className="text-earth-500">Bakery</span>
             </h3>
             <p className="text-sm leading-relaxed text-earth-100/70">
               Menyajikan kehangatan melalui roti dan kue berkualitas sejak 2010. Kebanggaan kuliner Lamongan.
@@ -39,15 +39,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 text-earth-500 flex-shrink-0" />
-                <span>Jl. Sunan Drajat No. 45, Lamongan, Jawa Timur</span>
+                <span>Jl. Raya Babat No. 666, Lamongan, Jawa Timur</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-earth-500 flex-shrink-0" />
-                <span>+62 812 3456 7890</span>
+                <span>+62 856 0486 7218</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-3 text-earth-500 flex-shrink-0" />
-                <span>order@lylybakery.com</span>
+                <span>order@tugubakery.com</span>
               </li>
             </ul>
           </div>
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-earth-800 mt-12 pt-8 text-center text-xs text-stone-500">
-          <p>&copy; {new Date().getFullYear()} Lyly Bakery Lamongan. Halal Certified.</p>
+          <p>&copy; {new Date().getFullYear()} Tugu Bakery Lamongan. Halal Certified.</p>
         </div>
       </div>
     </footer>

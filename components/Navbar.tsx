@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, setView, cartItemCount }) 
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-xl font-bold text-stone-900 tracking-tight leading-none">
-                Lyly<span className="text-earth-600">Bakery</span>
+                Tugu<span className="text-earth-600">Bakery</span>
               </span>
               <span className="text-[10px] text-stone-400 font-medium tracking-[0.25em] uppercase mt-0.5">Est. 2010</span>
             </div>

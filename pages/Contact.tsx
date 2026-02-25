@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
                 <MapPin className="w-6 h-6 text-earth-600" />
               </div>
               <div>
-                <h3 className="font-semibold text-stone-900 mb-1">Lyly Bakery Pusat</h3>
+                <h3 className="font-semibold text-stone-900 mb-1">Tugu Bakery Pusat</h3>
                 <p className="text-stone-600">Jl. Sunan Drajat No. 45</p>
                 <p className="text-stone-600">Lamongan, Jawa Timur 62211</p>
               </div>
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-stone-900 mb-1">Pemesanan (WhatsApp)</h3>
-                <p className="text-stone-600">+62 812 3456 7890</p>
+                <p className="text-stone-600">+62 856 0486 7218</p>
                 <p className="text-stone-500 text-sm mt-1">Buka Setiap Hari: 07:00 - 21:00 WIB</p>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-stone-900 mb-1">Email</h3>
-                <p className="text-stone-600">order@lylybakery.com</p>
+                <p className="text-stone-600">order@tugubakery.com</p>
                 <p className="text-stone-600">Kerjasama & Grosir</p>
               </div>
             </div>

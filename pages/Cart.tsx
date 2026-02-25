@@ -35,7 +35,7 @@ const Cart: React.FC<CartProps> = ({ cartItems, onUpdateQuantity, onRemoveItem, 
     message += `\n\nMohon info ketersediaan dan ongkir ke alamat saya. Terima kasih!`;
 
     const encodedMessage = encodeURIComponent(message);
-    const phoneNumber = "6281234567890"; // Replace with real number
+    const phoneNumber = "6285604867218"; // Replace with real number
     
     // 3. Open WhatsApp
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
