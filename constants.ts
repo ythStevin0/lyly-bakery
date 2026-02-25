@@ -119,5 +119,10 @@ export const FEATURES = [
     title: "Pengiriman Cepat",
     description: "Layanan pengiriman cepat ke seluruh wilayah Lamongan dan sekitarnya.",
     icon: "Truck"
+  },
+  {
+    title: "Bisa Custom Order",
+    description: "Terima pesanan khusus untuk ulang tahun, pernikahan, dan acara perusahaan.",
+    icon: "Cake"
   }
 ];
