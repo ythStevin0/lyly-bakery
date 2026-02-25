@@ -71,9 +71,9 @@ const Home: React.FC<HomeProps> = ({ onNavigate, products, onAddToCart }) => {
 
             <div className="mt-12 flex items-center gap-6">
                <div className="flex -space-x-4">
-                  {[1,2,3].map(i => (
-                    <img key={i} src={`https://picsum.photos/seed/${i + 20}/100`} className="w-12 h-12 rounded-full border-[3px] border-white shadow-md" alt="Customer" />
-                  ))}
+                  <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=100&auto=format&fit=crop" className="w-12 h-12 rounded-full border-[3px] border-white shadow-md" alt="Customer 1" />
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" className="w-12 h-12 rounded-full border-[3px] border-white shadow-md" alt="Customer 2" />
+                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" className="w-12 h-12 rounded-full border-[3px] border-white shadow-md" alt="Customer 3" />
                   <div className="w-12 h-12 rounded-full border-[3px] border-white bg-stone-100 flex items-center justify-center text-xs font-bold text-stone-600 shadow-md">+1k</div>
                </div>
                <div className="flex flex-col">

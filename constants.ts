@@ -81,21 +81,21 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Ibu Nurhayati",
     role: "Pelanggan Setia",
     content: "Roti sisirnya Lyly Bakery juara! Selalu jadi oleh-oleh wajib kalau saya pulang kampung ke Lamongan. Anak-anak di rumah pasti berebut.",
-    image: "https://picsum.photos/seed/ibu1/100/100"
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=200&auto=format&fit=crop"
   },
   {
     id: 2,
     name: "Pak Bambang",
     role: "Manajer Kantor",
     content: "Pesan snack box untuk rapat kantor 50 kotak, datang tepat waktu dan isiannya premium semua. Lempernya enak banget.",
-    image: "https://picsum.photos/seed/bapak2/100/100"
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
   },
   {
     id: 3,
     name: "Siska Amelia",
     role: "Mahasiswi",
     content: "Pesan tart ulang tahun buat mama via website, adminnya ramah, kuenya cantik dan rasanya nyoklat banget tapi nggak bikin eneg.",
-    image: "https://picsum.photos/seed/siska3/100/100"
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop"
   }
 ];
 
