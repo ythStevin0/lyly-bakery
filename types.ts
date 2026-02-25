@@ -51,3 +51,10 @@ export interface Order {
   status: 'pending' | 'completed';
   createdAt: string;
 }
+
+export interface DeliveryInfo {
+  method: string;
+  area: string;
+  cost: number;
+  estimatedTime: string;
+}
